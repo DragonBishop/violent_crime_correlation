@@ -62,8 +62,6 @@ cd {REPONAMEHERE}
 
 3. Instantiate the project's virtual environment (venv) and download dependencies.
 
-    A. If using UV, run the sync command to instantiate your venv using pyproject.toml and uv.lock files.
-
 ```bash
 # UV users can sync the venc using the provided pyproject.toml and uv.lock files.
 uv sync
